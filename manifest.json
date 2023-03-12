@@ -16,13 +16,6 @@
     "productivity",
     "utilities"
   ],
-  "screenshots": [
-    "src": "./images/Screennshots/Tela.png",
-    "sizes": "532x450",
-    "type": "image/png",
-    "platform": "wide",
-    "label": "Homescreen do PWA"
-  ],
   "icons": [
     {
       "src": "windows11/SmallTile.scale-100.png",
