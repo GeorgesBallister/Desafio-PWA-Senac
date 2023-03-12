@@ -1,0 +1,32 @@
+{
+  "background_color": "#ffffff",
+  "description": "Site Criado para testar minhas habilidades na criação de um PWA",
+  "dir": "auto",
+  "display": "fullscreen",
+  "name": "Code Space",
+  "orientation": "landscape",
+  "scope": "/Teste",
+  "short_name": "CSpace",
+  "start_url": "/https://cerulean-tiramisu-aa88af.netlify.app/",
+  "theme_color": "#ffffff",
+  "categories": [
+    "entertainment",
+    "navigation",
+    "personalization",
+    "productivity",
+    "utilities"
+  ],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "./images/Icones/icons.json"
+    }
+  ],
+  "shortcuts": [],
+  "lang": "pt",
+  "display_override": [
+    "fullscreen",
+    "minimal-ui"
+  ],
+  "prefer_related_applications": true
+}
