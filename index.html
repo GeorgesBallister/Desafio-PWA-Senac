@@ -8,6 +8,11 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="icon" href="./images/Icone.ico">
 		<link rel="manifest" href="/manifest.json">
+		<script>
+			if (typeof navigator.serviceWorker !== 'undefined') {
+			  navigator.serviceWorker.register('pwabuilder-sw.js')
+			}
+		  </script>
 
 	</head>
 	<body class="is-preload">
@@ -155,6 +160,6 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			
 	</body>
 </html>
